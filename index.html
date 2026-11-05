@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="AI Growth — your social media growth partner.">
+  <title>AI Growth</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="AI Growth home">AI GROWTH<span>.</span></a>
+    <span class="status"><i></i> YOUR GROWTH WORKSPACE</span>
+  </header>
+
+  <main class="container">
+    <section class="welcome">
+      <p class="eyebrow">YOUR SOCIAL MEDIA GROWTH PARTNER</p>
+      <h1>Grow with <span>intention.</span></h1>
+      <p class="intro">Build your audience with better content, smarter planning and genuine connections.</p>
+    </section>
+
+    <section class="platforms" aria-label="Social platforms">
+      <article class="card platform-card">
+        <div class="card-top"><span class="platform-icon instagram">◎</span><span class="tag">INSTAGRAM</span></div>
+        <h2>Instagram</h2>
+        <p>Plan content and review your account growth.</p>
+        <button class="button button-outline" data-platform="Instagram">Set up Instagram</button>
+      </article>
+      <article class="card platform-card">
+        <div class="card-top"><span class="platform-icon tiktok">♪</span><span class="tag">TIKTOK</span></div>
+        <h2>TikTok</h2>
+        <p>Develop video ideas and reach the right audience.</p>
+        <button class="button button-outline" data-platform="TikTok">Set up TikTok</button>
+      </article>
+    </section>
+
+    <section class="section-heading">
+      <div><p class="eyebrow">YOUR TOOLKIT</p><h2>What are we working on?</h2></div>
+    </section>
+
+    <section class="tools-grid">
+      <article class="card tool-card">
+        <span class="tool-symbol">✦</span>
+        <h3>AI Growth Coach</h3>
+        <p>Get practical steps to improve your social media presence.</p>
+        <button class="button button-primary" id="coachButton">Start growing</button>
+      </article>
+      <article class="card tool-card">
+        <span class="tool-symbol">✎</span>
+        <h3>Content & captions</h3>
+        <p>Generate content prompts, hooks and caption ideas.</p>
+        <button class="button button-outline" id="contentButton">Create ideas</button>
+      </article>
+      <article class="card tool-card">
+        <span class="tool-symbol">▤</span>
+        <h3>Posting planner</h3>
+        <p>Make a simple, consistent weekly posting plan.</p>
+        <button class="button button-outline" id="plannerButton">Build a plan</button>
+      </article>
+    </section>
+
+    <section class="card workspace" id="workspace" aria-live="polite">
+      <div class="workspace-heading">
+        <div><p class="eyebrow">AI GROWTH STUDIO</p><h2 id="workspaceTitle">Your next growth move</h2></div>
+        <span class="live-label">READY</span>
+      </div>
+      <p id="workspaceDescription">Choose a tool above and we'll help you take the next step.</p>
+      <div id="workspaceContent"></div>
+    </section>
+
+    <footer><span>AI GROWTH<span class="silver">.</span></span><span>Real people. Real growth.</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
